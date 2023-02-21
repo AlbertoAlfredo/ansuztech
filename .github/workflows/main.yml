@@ -1,7 +1,7 @@
 on:
   push:
     branches:
-      - gh-pages
+      - main
 name: 🚀 Deploy website on push
 jobs:
   web-deploy:
@@ -17,3 +17,4 @@ jobs:
           server: ${{ secrets.ftp_server }}
           username: ${{ secrets.fto_usuario }}
           password: ${{ secrets.ftp_senha }}
+          local-dir: dist/
