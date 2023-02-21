@@ -1,0 +1,22 @@
+:root{
+    --verde: rgba(0, 148, 5, 0.349);
+    --amarelo: rgb(230, 214, 0);
+    --laranja: rgb(230, 123, 0);
+    --fundo: rgba(0,0,0,1);
+  }
+  html{
+    background-color: var(--fundo);
+    color: #b3b3b3;
+  }
+  .efeito-verde:hover{
+    background: var(--verde);
+    background: linear-gradient(90deg, var(--verde) 0%, var(--fundo) 13%, var(--fundo) 87%, var(--verde) 100%);
+  }
+  .efeito-amarelo:hover{
+    background: var(--amarelo);
+    background: linear-gradient(90deg, var(--amarelo) 0%, var(--fundo) 23%, var(--fundo) 87%, var(--amarelo) 100%);
+  }
+  .efeito-laranja:hover{
+    background: var(--amarelo);
+    background: linear-gradient(90deg, var(--laranja) 0%, var(--fundo) 23%, var(--fundo) 87%, var(--laranja) 100%);
+  }
