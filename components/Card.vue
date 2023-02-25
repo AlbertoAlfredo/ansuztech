@@ -14,7 +14,7 @@ export default {
             <h2 class="card-title">{{ title }}</h2>
             <p>{{ content }}</p>
         </div>
-        <img :class="'card-img ' + invert" :src="'/_nuxt/assets/img/'+img">
+        
       <slot></slot>
     </div>
 </template>

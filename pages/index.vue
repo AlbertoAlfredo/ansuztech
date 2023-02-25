@@ -15,7 +15,7 @@
         :img="card.img"
         :invert="card.invert"
        >
-       
+       <img :class="'card-img ' + invert" :src="`/img/${card.img}`" />
        </Card>
       </div>
     </main>
