@@ -1,7 +1,8 @@
 :root{
-    --verde: rgba(0, 148, 5, 0.349);
-    --amarelo: rgb(230, 214, 0);
-    --laranja: rgb(230, 123, 0);
+    --verde: rgb(0, 221, 7);
+    --amarelo: rgb(255, 238, 0);
+    --laranja: rgb(255, 136, 0);
+    --vermelho: rgb(255, 0, 0);
     --fundo: rgba(0,0,0,1);
   }
   html{
@@ -9,14 +10,17 @@
     color: #b3b3b3;
   }
   .efeito-verde:hover{
-    background: var(--verde);
-    background: linear-gradient(90deg, var(--verde) 0%, var(--fundo) 13%, var(--fundo) 87%, var(--verde) 100%);
+    text-shadow: 0 0 10px var(--verde), 2px 2px 2px rgba(206,89,55,0);
   }
   .efeito-amarelo:hover{
-    background: var(--amarelo);
-    background: linear-gradient(90deg, var(--amarelo) 0%, var(--fundo) 23%, var(--fundo) 87%, var(--amarelo) 100%);
+    text-shadow: 0 0 10px var(--amarelo), 2px 2px 2px rgba(206,89,55,0);
   }
   .efeito-laranja:hover{
-    background: var(--amarelo);
-    background: linear-gradient(90deg, var(--laranja) 0%, var(--fundo) 23%, var(--fundo) 87%, var(--laranja) 100%);
+    text-shadow: 0 0 10px var(--laranja), 2px 2px 2px rgba(206,89,55,0);
+  }
+  .efeito-vermelho:hover{
+    text-shadow: 0 0 10px var(--vermelho), 2px 2px 2px rgba(206,89,55,0);
+  }
+  .container{
+    margin: 0 10%;
   }
